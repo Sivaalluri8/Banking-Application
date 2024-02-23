@@ -9,11 +9,9 @@ public class BankingApplication {
 	public static void main(String[] args) {
 		
 		
-		Current sav = new Current("Varma","543678901",50000);
-		sav.showInfo();
-		sav.reSetDebitCardPin();
 		
-		/*
+		
+		
 		List<Account> accounts = new LinkedList<Account>();
 		
 		//reading a csv file then creat new accounts based on that data 
@@ -47,7 +45,7 @@ public class BankingApplication {
 				acc.showInfo();
 				System.out.println("------------------------------");
 			
-		}*/
+		}
 
 	}
 }
